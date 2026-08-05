@@ -3,29 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+    <title>🎮 Rock Paper Scissors Game</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <h1>✊ Rock Paper Scissors ✋</h1>
+    <h1>🎮 Rock Paper Scissors</h1>
 
+    <!-- Score Board -->
     <div class="score-board">
+
         <div class="score">
-            <h2>You</h2>
+            <h2>👤 You</h2>
             <p>0</p>
         </div>
 
         <div class="vs">VS</div>
 
         <div class="score">
-            <h2>Computer</h2>
+            <h2>💻 Computer</h2>
             <p>0</p>
         </div>
+
     </div>
 
+    <!-- Choices -->
     <div class="choices">
 
         <button class="choice rock">
@@ -44,17 +55,20 @@
         </button>
 
     </div>
-    <div class="result">
-    Choose your move!
-</div>
 
-<button id="reset">Reset Score</button>
-
+    <!-- Result -->
     <div class="result">
         Choose your move!
     </div>
 
+    <!-- Reset -->
+    <button id="reset">
+        🔄 Reset Score
+    </button>
+
 </div>
-        <script src="script.js"></script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
